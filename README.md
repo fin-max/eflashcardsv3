@@ -1,46 +1,46 @@
-# Flashcard Web App
+# EFlashcards v3
 
 A React-based flashcard viewer that lets you upload a CSV (with **Question/Answer** or **A/B** columns) and flip between sides in an A5 landscape card style.
 
-## Features
-- Upload CSV with Question/Answer (or A/B)
+## ✨ Features
+- Upload CSV with Question/Answer (or A/B) headers
 - Alternating **A (odd pages)** and **B (even pages)** display
-- Even pages have a 15% green background
+- Even pages have a subtle 15% green background
 - Centered text, adjustable font size
 - Row numbers (top-left) and side label (top-right)
-- Keyboard shortcuts (→, ←, Space)
-- Shuffle & Reset order
+- Keyboard shortcuts (→, ←, Space) for navigation
+- Shuffle & Reset order options
 
 ---
 
 ## 🚀 One-Click Deploy
 
-Click below to deploy instantly to **Vercel**:
+### Deploy to Vercel
+Click to deploy instantly with all defaults pre-filled:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffin-max%2Feflashcardsv3)
+[![Deploy with Vercel](https://vercel.com/button)](
+  https://vercel.com/new/clone
+  ?repository-url=https%3A%2F%2Fgithub.com%2Ffin-max%2Feflashcardsv3
+  &project-name=eflashcardsv3
+  &repository-name=eflashcardsv3
+  &demo-title=EFlashcards
+  &demo-description=React-based%20CSV%20Flashcards%20with%20A/B%20sides
+)
 
-> Replace `yourusername/flashcard-app` with the actual path to your repository.
+### Deploy to Netlify
+You can also deploy with Netlify:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](
+  https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2Ffin-max%2Feflashcardsv3
+)
 
 ---
 
-## Local Development
+## 🛠 Local Development
+
+Clone the repo and install dependencies:
 
 ```bash
-# Install dependencies
+git clone https://github.com/fin-max/eflashcardsv3.git
+cd eflashcardsv3
 npm install
-
-# Run dev server
-npm run dev
-
-# Build production bundle
-npm run build
-```
-
-Visit `http://localhost:3000` to view the app.
-
----
-
-## Hosting Options
-- **Vercel** (recommended): 1‑click deploy above
-- **Netlify**: Drag + drop the build folder or connect GitHub
-- **GitHub Pages**: Push the `/out` or `/build` folder from `npm run build`
