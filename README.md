@@ -17,7 +17,7 @@ A React-based flashcard viewer that lets you upload a CSV (with **Question/Answe
 
 Click below to deploy instantly to **Vercel**:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffin-max%2Fflashcard-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffin-max%2Feflashcardsv3)
 
 > Replace `yourusername/flashcard-app` with the actual path to your repository.
 
